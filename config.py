@@ -2,7 +2,7 @@ import os
 
 # === TELEGRAM BOT ===
 # BotFather से लिया गया टोकन
-BOT_TOKEN = os.getenv("BOT_TOKEN", "YOUR_TELEGRAM_BOT_TOKEN_HERE")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8521331381:AAFoCv9rGY6rodO2_yfNELVtsoE80Cp_ay8")
 
 # === DOMINO'S INDIA ===
 DOMINOS_BASE_URL = "https://www.dominos.co.in"
