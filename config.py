@@ -17,7 +17,7 @@ PROXY_PUBLIC_URL = os.getenv(
 )
 
 # === BROWSER CONFIG ===
-PLAYWRIGHT_HEADLESS = os.getenv("PLAYWRIGHT_HEADLESS", "false").lower() == "true"
+PLAYWRIGHT_HEADLESS = os.getenv("PLAYWRIGHT_HEADLESS", "false").lower() == "false"
 PLAYWRIGHT_TIMEOUT = 30000  # 30 seconds
 
 # Set to False for debugging - will show browser window
