@@ -14,7 +14,7 @@ PROXY_HOST = "0.0.0.0"
 PROXY_PORT = int(os.getenv("PROXY_PORT", "8080"))
 PROXY_PUBLIC_URL = os.getenv(
     "PROXY_PUBLIC_URL",
-    "https://your-domain.com"  # Ngrok/Server URL डालें
+    "https://cloning-gorged-overbite.ngrok-free.dev"  # Ngrok/Server URL डालें
 )
 
 # === BROWSER CONFIG ===
