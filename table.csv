@@ -1,0 +1,6 @@
+Variable,Description,Default
+BOT_TOKEN,Telegram Bot Token,""""""
+PROXY_PUBLIC_URL,Public URL for WebApp,""""""
+PROXY_PORT,Flask proxy port,8080
+PLAYWRIGHT_HEADLESS,Run browser headless,true
+SECRET_KEY,Session encryption key,Random

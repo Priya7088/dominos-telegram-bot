@@ -1,0 +1,10 @@
+dominos-telegram-bot/
+├── requirements.txt
+├── config.py
+├── session_store.py
+├── dominos_browser.py
+├── keyboards.py
+├── bot.py
+├── proxy_server.py
+├── webapp.html
+└── README.md

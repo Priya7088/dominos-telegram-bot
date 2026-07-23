@@ -1,0 +1,15 @@
+User (Telegram)
+    │
+    ├── Bot (bot.py) → python-telegram-bot
+    │       │
+    │       ├── Session Store (session_store.py) → encrypted JSON
+    │       │
+    │       ├── Domino's Browser (dominos_browser.py) → Playwright
+    │       │
+    │       └── Keyboards (keyboards.py)
+    │
+    └── WebApp Mini Window
+            │
+            └── Proxy Server (proxy_server.py) → Flask
+                    │
+                    └── Domino's India ↗ m.dominos.co.in
