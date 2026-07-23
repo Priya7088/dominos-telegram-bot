@@ -18,7 +18,7 @@ PROXY_PUBLIC_URL = os.getenv(
 )
 
 # === BROWSER CONFIG ===
-PLAYWRIGHT_HEADLESS = os.getenv("PLAYWRIGHT_HEADLESS", "False").lower() == "true"
+PLAYWRIGHT_HEADLESS = os.getenv("PLAYWRIGHT_HEADLESS", "False").lower() == "False"
 PLAYWRIGHT_TIMEOUT = 30000  # 30 seconds
 
 # === SESSION STORAGE ===
